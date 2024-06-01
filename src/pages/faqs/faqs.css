@@ -1,0 +1,78 @@
+.wp-otr-faq {
+    width: 100%;
+    height: fit-content;
+}
+
+.wp-inr-faq {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.faq-h {
+    font-weight: bold;
+    margin-top: 2rem;
+    color: black;
+    width: 80%;
+    text-align: center;
+}
+
+.faq-p {
+    margin-top: 1rem;
+    width: 90%;
+    color: white;
+    text-align: justify;
+}
+
+.faq-a {
+    margin-top: 1rem;
+    width: 80%;
+    color: white;
+    text-align: justify;
+}
+
+.faq-q {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    width: 80%;
+    border-radius: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.faq-live {
+    width: 100%;
+    min-height: 30ch;
+    background-color: var(--third-color);
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.faq-live h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.faq-live p {
+    color: black;
+    text-align: justify;
+}
+
+.faq-live h2  {
+    color: var(--secondary-color);
+    font-weight: bold;
+
+}
+

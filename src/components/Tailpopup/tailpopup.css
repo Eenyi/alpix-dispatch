@@ -1,0 +1,31 @@
+.wp-otr-tailpopup {
+    height: 90%;
+    width: 80vw;
+    margin-top: 3rem;
+}
+
+.wp-inr-tailpopup {
+    height: 70%;
+    width: 100%;
+    background-color: var(--secondary-color);;
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    color: var(--primary-color);
+    font-weight: bold;
+    overflow: scroll;
+}
+
+.wp-inr-tailpopup p {
+    height: 60%;
+    padding: 1rem;
+}
+
+.wp-inr-tailpopup::-webkit-scrollbar {
+    display: none;
+}

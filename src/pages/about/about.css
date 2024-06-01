@@ -1,0 +1,52 @@
+.wp-otr-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wp-otr-about h1 {
+    color: black;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+.wp-otr-about p {
+    text-align: justify;
+    width: 90%;
+}
+
+.wp-inr-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+b{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wp-inr-about {
+    background-color: var(--third-color);
+    min-height: 97vh;
+    border-radius: 2rem 2rem 0 0;
+    gap:1.5rem;
+    padding-top: 1rem;
+}
+
+.wp-inr-about i {
+    color: var(--secondary-color);
+    font-size: 148px;
+}
+
+.wp-inr-about h3 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+}
+
+.wp-inr-about p {
+    color: darkslategray;
+}

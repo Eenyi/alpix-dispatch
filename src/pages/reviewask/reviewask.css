@@ -1,0 +1,60 @@
+.wp-otr-reviews {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.wp-inr-review {
+    width: 100%;
+    background-color: var(--third-color);
+    border-radius: 2rem 2rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+}
+
+.wp-inr-review h1 {
+    color: black;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.wp-inr-review form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wp-inr-review form input, .wp-inr-review form select, .wp-inr-review form textarea {
+    border: 5px solid var(--secondary-color);
+    border-radius: 1.5rem;
+    padding: 5px;
+    background-color: white;
+    width: 20rem;
+}
+
+.wp-inr-review form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.wp-inr-review form div select {
+    width: 15rem;
+}
+
+.wp-inr-review form label {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+

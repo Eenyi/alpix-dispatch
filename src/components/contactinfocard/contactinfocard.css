@@ -1,0 +1,70 @@
+.wp-otr-contact-info-card {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wp-inr-contact-info-card {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--secondary-color);;
+    border-radius: 2rem;
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+    overflow: scroll;
+}
+
+.wp-inr-contact-info-card::-webkit-scrollbar {
+    display: none;
+}
+
+
+.wp-inr-contact-info-card form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    gap: .5rem;
+}
+
+.wp-inr-contact-info-card form input,
+.wp-inr-contact-info-card form textarea {
+    border-radius: 2rem;
+    padding: 5px;
+    border: 5px solid var(--third-color);
+    width: 300px;
+    background-color: white;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.wp-inr-contact-info-card h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 28px;
+}
+
+.wp-inr-contact-info-card form input::placeholder,
+.wp-inr-contact-info-card form textarea::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--primary-color);
+    font-weight: bold;
+
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 1115px) {
+    .wp-inr-contact-info-card {
+        width: 90%;
+    }
+}

@@ -1,0 +1,12 @@
+.wp-otr-alert {
+    width: fit-content;
+    height: fit-content;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-size: 12px;
+    z-index: 2;
+    bottom: 1rem;
+    left: 1rem;
+    position: fixed;
+    color: white;
+}

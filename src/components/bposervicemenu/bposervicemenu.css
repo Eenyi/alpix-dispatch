@@ -1,0 +1,125 @@
+.wp-otr-bpomenu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.075);
+    -webkit-backdrop-filter: blur(8px);
+    -o-backdrop-filter: blur(8px);
+    -moz-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.wp-inr-bpomenu {
+    height: 60%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wp-cont-bpomenu {
+    height: 80%;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 2rem;
+    background-color: var(--third-color);;
+    font-size: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wp-bpomenu-left {
+    width: 40%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+    color: var(--primary-color) !important;
+}
+
+.wp-bpomenu-right {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+    color: var(--primary-color) !important;
+}
+
+
+.wp-bpomenu-right:hover, .wp-bpomenu-left:hover {
+    border: var(--primary-color) solid 5px;
+    padding: 5px;
+    border-radius: 2rem;
+    background-color: var(--secondary-color);
+}
+
+.wp-bpomenu-left p, .wp-bpomenu-right p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.bpomenu-cancel {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bpomenu-cancel button {
+    background-color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.bpomenu-cancel button:hover {
+    transition: .2s;
+    font-size: x-large;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 1115px) {
+    .wp-inr-bpomenu {
+        width: 90%;
+    } 
+  }
+
+  @media (max-width: 500px) {
+    .wp-cont-bpomenu {
+        flex-direction: column;
+    } 
+    .wp-inr-bpomenu {
+        height: 80%;
+    }
+    
+    .wp-bpomenu-right, .wp-bpomenu-left {
+        width: 70%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+  }

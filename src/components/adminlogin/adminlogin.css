@@ -1,0 +1,22 @@
+.wp-height {
+    height: 55vh !important;
+}
+
+.wp-otp-message {
+    margin-top: 1rem;
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+.wp-otp-creds {
+    color: var(--primary-color);
+    font-size: 12px;
+    text-decoration: underline;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.wp-otp-creds:hover {
+    color: var(--secondary-color);
+    transition: .5s;
+}

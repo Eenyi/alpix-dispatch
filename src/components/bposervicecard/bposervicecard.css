@@ -1,0 +1,47 @@
+.wp-otr-bpocard {
+    background-color: var(--secondary-color);
+    width: 90%;
+    border-radius: 2rem;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.wp-bpocard-p {
+    text-align: justify;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2rem 2rem 10px 10px;
+    color: darkslategray;
+    /* font-weight: bold; */
+    margin: -.5rem;
+    margin-top: 1rem;
+}
+
+.wp-bpocard-h {
+    text-align: center;
+    font-weight: bold;
+}
+
+.wp-bpocard-img {
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+.wp-bpocard-img img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}

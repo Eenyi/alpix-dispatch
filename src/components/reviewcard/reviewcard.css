@@ -1,0 +1,72 @@
+.wp-otr-reviewcard {
+    width: 19rem;
+    height: 12rem;
+    background-color: var(--third-color);
+
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    border-radius: 2rem;
+    overflow:auto;
+}
+
+.wp-otr-reviewcard::-webkit-scrollbar {
+    display: none;
+}
+
+.wp-star {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    height: 2.5rem;
+    color: black;
+    border-radius: 2rem;
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.wp-star i {
+    color: yellow;
+    font-size: 28px;
+    text-shadow:  2px 2px lightblue;
+}
+
+.wp-star p {
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    background-color: gray;
+    color: white;
+    border-radius: 2rem;
+    width: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wp-otr-reviewcard h5 {
+    color: black;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.wp-otr-reviewcard span:nth-child(3) {
+    color: darkslategray;
+    font-style: italic;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+
+.wp-otr-reviewcard span:nth-child(4) {
+    margin-left: 5px;
+    color: var(--secondary-color);
+}
+
+@media(max-width:700px) {
+    .wp-otr-reviewcard {
+        width: 100%;
+    }
+}

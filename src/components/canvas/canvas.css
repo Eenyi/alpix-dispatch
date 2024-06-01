@@ -1,0 +1,29 @@
+.wp-otr-canvas {
+    background: var(--secondary-color);
+    background: linear-gradient(180deg, var(--secondary-color) 0%, var(--secondary-color) 80%, var(--third-color) 81%);    width: 100%;
+    min-height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 2.5rem 2.5rem 0 0;
+    flex-direction: column;
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 1115px) {
+    .wp-home-up {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wp-canvas-left {
+        width: 100%;
+    }
+
+    .wp-canvas-right {
+        width: 100%;
+    }
+}

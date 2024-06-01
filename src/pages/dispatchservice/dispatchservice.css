@@ -1,0 +1,122 @@
+.wp-dserv-up {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dserv {
+    flex-direction: column;
+    display: flex;
+    padding: 2rem;
+}
+
+.dserv h1 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.dserv h4 {
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.dserv p {
+    text-align: justify;
+}
+
+.wp-derv-down {
+    background-color: var(--third-color);
+    min-height: 90vh;
+    border-radius: 2rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wp-derv-down h1 {
+    color: black;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.wp-derv-content {
+    height: 100%;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.wp-free-trial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.wp-free-trial h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.wp-free-trial h3 {
+    text-align: center;
+    font-weight: bold;
+    color: var(--secondary-color);
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.trial-btn {
+    background-color: var(--primary-color);;
+    padding: 1rem;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    margin: 3rem;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.trial-btn:hover {
+    transition: .5s;
+    background-color: white;
+    color: var(--secondary-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 1115px) {
+    .wp-dserv-up {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wp-canvas-left {
+        width: 100%;
+    }
+
+    .wp-canvas-right {
+        width: 100%;
+    }
+
+    .dserv h1 {
+        text-align: center;
+    }
+
+    .dserv h4 {
+        text-align: center;
+    }
+}

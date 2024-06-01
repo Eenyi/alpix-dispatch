@@ -1,0 +1,162 @@
+.wp-canvas-left {
+    width: 72%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.wp-canvas-right {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.wp-home-up {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wp-home-down {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--third-color);
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.wp-intro {
+    width: 95%;
+    min-height: 200px;
+    background-color: var(--third-color);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.wp-job {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.jobs-left {
+    height: 100%;
+    width: 50%;
+}
+
+.jobs-right {
+    height: 100%;
+    width: 50%;
+}
+
+.job-content {
+    background-color: var(--third-color);
+    border-radius: 2rem;
+    margin: 1rem;
+    display: flex;
+}
+
+.intro-head {
+    font-weight: bold;
+    color: black;
+}
+
+.intro-sub-head {
+    font-weight: bold;
+    color: var(--secondary-color)
+}
+
+.intro-body {
+    color: darkslategray;
+    background-color: var(--third-color);
+    font-weight: 500;
+    text-align: justify;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.job-logo {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-text {
+    padding: 1rem;
+}
+
+.job-h {
+    font-weight: bold;
+    color: black;
+}
+
+.job-p {
+    color: darkslategray;
+    text-align: justify;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 1115px) {
+    .wp-canvas-left {
+        width: 100%;
+        min-height: fit-content;
+    }
+    
+    .wp-canvas-right {
+        width: 100%;
+        min-height: fit-content;
+    }
+
+    .wp-job {
+        flex-direction: column;
+    }
+
+    .jobs-left {
+        width: 100%;
+    }
+    
+    .jobs-right {
+        width: 100%;
+    }
+    
+    .job-content {
+        margin: 0;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+
+    .job-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wp-intro {
+        width: 90%;
+    }
+  }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 540px) {
+    .wp-canvas-left {
+        margin-top: 1rem;
+    }   
+}
+
+
